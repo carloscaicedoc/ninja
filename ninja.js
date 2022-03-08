@@ -34,10 +34,6 @@ class Ninja {
 
 // ***** Test ***** // 
 const warrior = new Ninja("Hattori Mochizuki", 150);
-console.log(warrior.name);
-console.log(warrior.health);
-console.log(warrior.speed);
-console.log(warrior.strength);
 warrior.sayName();
 warrior.showStats();
 warrior.drinkSake();
